@@ -10,9 +10,9 @@
 		exit(-1);\
 	}while(0)
 
-#define OUTBUF_SIZE 512
-#define SYMTABLE_SIZE 100
-#define UNRESOLVEDTABLE_SIZE 150
+#define OUTBUF_SIZE 1024
+#define SYMTABLE_SIZE 256
+#define UNRESOLVEDTABLE_SIZE 512
 
 #define NO_DATA 0
 #define DIRECTIVE_DEFINE 0
