@@ -72,9 +72,10 @@ const symbol directive_table[] = {
 //operandA  ACC:+0, IX:+8
 //operandB  ACC:+0, IX:+1, d:+2, [d]:+4, (d):+5, [IX+d]:+6, (IX+d):+7
 const symbol opcode_table[] = {
-	{"_len",40},
+	{"_len",41},
 	{"nop",	0x00},
 	{"hlt",	0x0f},
+	{"halt",0x0f},
 	{"out",	0x10},
 	{"in",	0x1f},
 	{"rcf",	0x20},
