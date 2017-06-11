@@ -6,6 +6,9 @@
 
 # コンパイル
 educpuasm.c をコンパイルするだけ。
+```
+$ gcc -std=gnu99 educpuasm.c
+```
 
 # 実行
 ```
